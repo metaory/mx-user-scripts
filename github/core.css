@@ -1,3 +1,151 @@
-* {
-  color: yellow !important;
+[data-color-mode="dark"][data-dark-theme="dark"],
+[data-color-mode="light"][data-light-theme="dark"],
+:root {
+  /* *** XS ************************************************************* */
+  --color-select-menu-backdrop-border: var(--mx-xs0) !important;
+  --color-select-menu-tap-highlight: var(--mx-xs0) !important;
+  --color-select-menu-tap-focus-bg: var(--mx-xs0) !important;
+  --color-checks-dropdown-btn-hover-bg: var(--mx-xs0) !important;
+  --color-neutral-emphasis: var(--mx-xs0) !important;
+  --color-success-muted: var(--mx-xs0) !important;
+  --color-btn-primary-disabled-bg: var(--mx-xs0) !important;
+  --color-search-keyword-hl: var(--mx-xs0) !important;
+  --color-btn-hover-bg: var(--mx-xs0) !important;
+  --color-btn-x-bg: var(--mx-xs0) !important;
+  --color-btn-counter-bg: var(--mx-xs0) !important;
+  --color-action-list-item-default-active-bg: var(--mx-xs0) !important;
+  --color-diff-blob-addition-num-bg: var(--mx-xs0) !important;
+  --color-btn-outline-selected-bg: var(--mx-xs0) !important;
+  --color-scale-gray-2: var(--mx-xs0) !important;
+  --color-fg-on-emphasis: var(--mx-xs0) !important;
+  --color-user-mention-bg: var(--mx-xs1) !important;
+  --color-checks-text-secondary: var(--mx-xs1) !important;
+  --color-accent-fg: var(--mx-xs1) !important;
+  --color-diffstat-addition-bg: var(--mx-xs1) !important;
+  --color-primer-border-active: var(--mx-xs1) !important;
+  --color-attention-muted: var(--mx-xs1) !important;
+  --color-btn-outline-hover-bg: var(--mx-xs1) !important;
+  --color-success-emphasis: var(--mx-xs1) !important;
+  --color-workflow-card-connector-highlight-bg: var(--mx-xs1) !important;
+  --color-diff-blob-addition-word-bg: var(--mx-xs1) !important;
+  --color-btn-primary-bg: var(--mx-xs2) !important;
+  --color-neutral-emphasis-plus: var(--mx-xs2) !important;
+  --color-done-emphasis: var(--mx-xs2) !important;
+  --color-btn-selected-bg: var(--mx-xs2) !important;
+  --color-btn-active-bg: var(--mx-xs2) !important;
+  --color-neutral-muted: var(--mx-xs2) !important;
+  --color-diff-blob-addition-line-bg: var(--mx-xs2) !important;
+  --color-action-list-item-default-hover-bg: var(--mx-xs2) !important;
+  --color-prettylights-syntax-variable: var(--mx-xs2) !important;
+  --color-accent-emphasis: var(--mx-xs2) !important;
+  --color-closed-fg: var(--mx-xs3) !important;
+  --color-checks-header-icon: var(--mx-xs3) !important;
+  --color-header-logo: var(--mx-xs3) !important;
+  --color-border-muted: var(--mx-xs3) !important;
+  --color-fg-subtle: var(--mx-xs3) !important;
+  --color-workflow-card-connector: var(--mx-xs3) !important;
+  --color-workflow-card-connector-highlight: var(--mx-xs3) !important;
+  --color-diff-blob-expander-icon: var(--mx-xs3) !important;
+  --color-checks-header-label-text: var(--mx-xs3) !important;
+  --color-checks-btn-icon: var(--mx-xs3) !important;
+  --color-checks-line-num-text: var(--mx-xs3) !important;
+  --color-btn-text: var(--mx-xs4) !important;
+  --color-scale-white: var(--mx-xs5) !important;
+  --color-fg-muted: var(--mx-xs5) !important;
+  --color-icon-directory: var(--mx-xs5) !important;
+  --color-primer-fg-disabled: var(--mx-xs5) !important;
+  --color-fg-default: var(--mx-xs8) !important;
+  --color-user-mention-fg: var(--mx-xs8) !important;
+  --color-btn-outline-text: var(--mx-xs9) !important;
+  --color-prettylights-syntax-string: var(--mx-xs9) !important;
+  /* *** YS ************************************************************* */
+  --color-checks-btn-hover-icon: var(--mx-ys0) !important;
+  --color-checks-text-primary: var(--mx-ys0) !important;
+  --color-danger-muted: var(--mx-ys0) !important;
+  --color-workflow-card-connector-bg: var(--mx-ys0) !important;
+  --color-btn-hover-border: var(--mx-ys0) !important;
+  --color-attention-fg: var(--mx-ys0) !important;
+  --color-diff-blob-deletion-word-bg: var(--mx-ys1) !important;
+  --color-btn-primary-hover-bg: var(--mx-ys2) !important;
+  --color-danger-emphasis: var(--mx-ys2) !important;
+  --color-open-emphasis: var(--mx-ys2) !important;
+  --color-attention-emphasis: var(--mx-ys4) !important;
+  --color-diff-blob-deletion-line-bg: var(--mx-ys5) !important;
+  --color-diff-blob-deletion-num-bg: var(--mx-ys6) !important;
+  /* *** XK ************************************************************* */
+  --color-header-bg: var(--mx-xk0) !important;
+  --color-checks-dropdown-bg: var(--mx-xk0) !important;
+  --color-primer-canvas-sticky: var(--mx-xk0) !important;
+  --color-neutral-subtle: var(--mx-xk5) !important;
+  --color-page-header-bg: var(--mx-xk1) !important;
+  --color-segmented-control-bg: var(--mx-xk1) !important;
+  --color-canvas-overlay: var(--mx-xk5) !important;
+  --color-checks-line-hover-bg: var(--mx-xk1) !important;
+  --color-checks-bg: var(--mx-xk2) !important;
+  --color-canvas-inset: var(--mx-xk2) !important;
+  --color-canvas-subtle: var(--mx-xk2) !important;
+  --color-canvas-default: var(--mx-xk2) !important;
+  --color-bg-discussions-row-emoji-box: var(--mx-xk2) !important;
+  --color-btn-outline-disabled-bg: var(--mx-xk2) !important;
+  --color-btn-bg: var(--mx-xk3) !important;
+  --color-input-disabled-bg: var(--mx-xk4) !important;
+  --color-workflow-card-bg: var(--mx-xk5) !important;
+  --color-bg-secondary: var(--mx-xk5) !important;
+  --color-border-default: var(--mx-xk5) !important;
+  --color-menu-bg-active: var(--mx-xk5) !important;
+  --color-success-subtle: var(--mx-xk5) !important;
+  --color-checks-step-header-open-bg: var(--mx-xk5) !important;
+  --color-attention-subtle: var(--mx-xk5) !important;
+  --color-header-search-bg: var(--mx-xk5) !important;
+  --color-checks-input-bg: var(--mx-xk5) !important;
+  --color-diff-blob-hunk-num-bg: var(--mx-xk5) !important;
+  --color-accent-muted: var(--mx-xk5) !important;
+  --color-accent-subtle: var(--mx-xk5) !important;
+  --color-social-reaction-bg-hover: var(--mx-xk5) !important;
+  --color-social-reaction-bg-reacted-hover: var(--mx-xk5) !important;
+  --color-action-list-item-default-selected-bg: var(--mx-xk5) !important;
+  --color-checks-logline-error-bg: var(--mx-xk6) !important;
+  --color-timeline-badge-bg: var(--mx-xk6) !important;
+  --color-closed-emphasis: var(--mx-xk6) !important;
+  --color-action-list-item-inline-divider: var(--mx-xk6) !important;
+  --color-workflow-card-connector-inactive: var(--mx-xk7) !important;
+  --color-btn-outline-disabled-text: var(--mx-xk8) !important;
+  --color-checks-line-text: var(--mx-xk8) !important;
+  /* *** UNITS ********************************************************** */
+  --borderRadius-medium: var(--mx-border-radius) !important;
+  --primer-borderRadius-medium: var(--mx-border-radius) !important;
+  --base-text-weight-semibold: 800 !important;
+  --base-size-4: 4px !important;
+  --primer-borderWidth-thick: 4px !important;
+  /* *** ETC ************************************************************ */
+  --color-prettylights-syntax-comment: hsl(260deg 9% 58%) !important;
+  --color-prettylights-syntax-invalid-illegal-bg: hsl(
+    330deg 80% 30%
+  ) !important;
+  --color-prettylights-syntax-keyword: hsl(340deg 100% 70%) !important;
+  --color-success-fg: hsl(160deg 70% 50%) !important;
+  --color-btn-danger-text: hsl(340deg 70% 50%) !important;
+  --color-danger-fg: hsl(340deg 70% 60%) !important;
+  --color-danger-subtle: hsl(340deg 93% 63% / 15%) !important;
+  --color-btn-danger-hover-bg: hsl(340deg 60% 40%) !important;
+  --color-checks-logline-warning-bg: hsl(300deg 90% 40% / 15%) !important;
+  /*
+  --color-shadow-small                           : 0 0 0 2px var(--mx-xs2) !important;
+  --color-primer-shadow-inset                    : inset 0 0 0 4px var(--mx-xs2) !important;
+  */
+  --color-primer-shadow-focus: 0 0 0 6px var(--mx-xs2) !important;
+  --color-checks-dropdown-shadow: 0 0 0 4px var(--mx-xs2) !important;
+  --color-shadow-medium: 0 0 0 4px var(--mx-xs2) !important;
+  --color-shadow-large: 0 0 0 6px var(--mx-xs2) !important;
+  --color-overlay-shadow: 0 0 0 6px var(--mx-xs2) !important;
+  /* *** NAMES ********************************************************** */
+  --color-diff-blob-addition-num-text: white !important;
+  --color-diff-blob-addition-fg: white !important;
+  --color-diff-blob-deletion-num-text: white !important;
+  --color-diff-blob-deletion-fg: white !important;
+  --color-btn-outline-hover-text: white !important;
+  --color-btn-x-hover-bg: crimson !important;
+  /* ******************************************************************** */
 }
+/* #################################################################### */
+/* ******************************************************************** */
