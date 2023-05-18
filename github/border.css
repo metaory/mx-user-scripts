@@ -1,0 +1,35 @@
+/* BORDER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ******************************************************************** */
+
+/* BORDER NONE ******************************************************** */
+__BORDER_NONE {
+  border: none !important;
+}
+
+/* BORDER TRANSPARENT ************************************************* */
+__BORDER_TRANSPARENT {
+  border-color: transparent !important;
+}
+
+/* BORDER RADIUS ZERO ************************************************* */
+__BORDER_RADIUS_ZERO {
+  border-radius: 0 !important;
+}
+
+/* BORDER RADIUS ALL ************************************************** */
+__BORDER_RADIUS_ALL {
+  border-radius: var(--mx-border-radius) !important;
+}
+
+/* BORDER RADIUS LEFT ************************************************* */
+__BORDER_RADIUS_LEFT {
+  border-top-left-radius: var(--mx-border-radius) !important;
+  border-bottom-left-radius: var(--mx-border-radius) !important;
+}
+
+/* BORDER RADIUS RIGHT ************************************************ */
+__BORDER_RADIUS_RIGHT {
+  border-top-right-radius: var(--mx-border-radius) !important;
+  border-bottom-right-radius: var(--mx-border-radius) !important;
+}
+/* BORDER ///////////////////////////////////////////////////////////// */
